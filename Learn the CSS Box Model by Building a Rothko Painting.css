@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Rothko Painting</title>
+    <link href="./styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="canvas">
+    </div>
+  </body>
+</html>
+.canvas {
+  width: 500px;
+  height: 600px;
+background-color: #4d0f00;
+}
