@@ -9,6 +9,8 @@
     <div class="frame">
       <div class="canvas">
         <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
       </div>
     </div>
   </body>
@@ -17,7 +19,7 @@
   width: 500px;
   height: 600px;
   background-color: #4d0f00;
-
+  overflow: hidden;
 }
 
 .frame {
@@ -32,4 +34,17 @@
   height: 150px;
   background-color: #efb762;
   margin: 20px auto;
+}
+
+.two {
+  width: 475px;
+  height: 200px;
+  background-color: #8f0401;
+  margin: auto;
+}
+
+.three {
+  width: 91%;
+  height: 28%;
+
 }
