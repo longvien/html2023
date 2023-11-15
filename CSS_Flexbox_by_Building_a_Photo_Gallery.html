@@ -11,15 +11,15 @@
       <h1>css flexbox photo gallery</h1>
     </header>
     <div class="gallery">
-      <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg">
-      <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/2.jpg">
-      <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/3.jpg">
-      <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/4.jpg">
-      <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/5.jpg">
-      <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/6.jpg">
-      <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/7.jpg">
-      <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/8.jpg">
-      <img src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/9.jpg">
+      <img alt="sleppy cat" src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg">
+      <img  alt="sleppy cat" src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/2.jpg">
+      <img  alt="sleppy cat" src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/3.jpg">
+      <img  alt="sleppy cat" src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/4.jpg">
+      <img  alt="sleppy cat" src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/5.jpg">
+      <img  alt="sleppy cat" src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/6.jpg">
+      <img  alt="sleppy cat" src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/7.jpg">
+      <img  alt="sleppy cat" src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/8.jpg">
+      <img  alt="sleppy cat" src="https://cdn.freecodecamp.org/curriculum/css-photo-gallery/9.jpg">
     </div>
   </body>
 </html>
@@ -48,6 +48,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 16px;
   max-width: 1400px;
   margin: 0 auto;
   padding: 20px 10px;
@@ -58,4 +59,10 @@ body {
   max-width: 350px;
   height: 300px;
   object-fit: cover;
+  border-radius: 10px;
+}
+
+.gallery::after {
+  content: "";
+  width: 350px;
 }
