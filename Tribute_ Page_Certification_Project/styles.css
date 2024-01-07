@@ -1,3 +1,4 @@
-.image{
-  max-width: 100%;
+#image {
+    display: block;
+    max-width: 100%;
 }
