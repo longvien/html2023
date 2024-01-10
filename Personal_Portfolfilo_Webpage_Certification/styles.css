@@ -1,0 +1,57 @@
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+}
+body {
+  margin: 0;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #7FFFD4;
+  z-index: 1000;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+
+.nav-list li {
+  display: inline-block;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.welcome-section,
+.projects-section,
+.foods-section {
+  margin-top: 70px; 
+}
+
+.welcome-section {
+  padding: 20px;
+}
+
+.projects-section {
+  padding: 20px;
+}
+
+.project-tile {
+  margin-top: 10px;
+}
+
+.pro-title {
+  color: #333;
+}
