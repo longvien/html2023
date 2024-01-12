@@ -2,13 +2,21 @@
   body {
     font-size: 16px;
   }
-  #image {
+    .image-container {
+      display: flex;
+      justify-content: space-between;
+    }
+    .image-container img {
+      max-width: 48%; /* Set the maximum width for each image */
+      height: auto;
+    }
+ #image {
     display: block;
-    max-width: 100%;
+    max-width: 80%;
 }
 #image2{
     display: block;
-    max-width: 50%;
+    max-width: 10%;
 }
 
 }
