@@ -1,8 +1,24 @@
-@media only screen and (max-width: 600px) {
-  body {
-    font-size: 16px;
-  }
- .row {
+ table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+th, td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+tr:hover {
+	background-color: #f5f5f5;
+}
+
+.row {
   display: flex;
   flex-wrap: wrap;
 }
@@ -10,53 +26,56 @@
 .column {
   flex: 1;
   padding: 0 10px;
-  width: 330px;
 }
 
-  .project-tile {
+.project-tile {
     display: flex;
     justify-content: space-around;
     align-items: center; 
     flex-wrap: wrap; 
-  }
-  .project-container {
+ }
+ 
+.project-container {
   display: flex;
   justify-content: space-around;
 }
+
  .project-block {
     text-align: center;
     text-decoration: none;
     color: #333;
     width: 330px;
   }
+ 
 .project-block img {
   max-width: 100%;
   height: auto;
 }
+
 .project-title {
   margin-top: 10px;
   width: 330px;
 }
+
 .code {
   color: green;
 }
+
 .image-container {
   display: flex;
 justify-content: space-between;
-    }
+ }
+ 
 .image-container img {
       max-width: 31%; /* Set the maximum width for each image */
       height: auto;
     }
+	
  #image {
     display: block;
     max-width: 80%;
 }
-#image2{
-    display: block;
-    max-width: 10%;
-}
-}
+
 body {
   margin: 0;
 }
@@ -104,6 +123,8 @@ body {
 
 .project-tile {
   margin-top: 10px;
-  width: 330px;
 }
 
+.pro-title {
+  color: #333;
+}
