@@ -1,7 +1,7 @@
 *,
 ::before,
 ::after {
-  padding: 12;
+  padding: 10;
   margin: 0;
   box-sizing: border-box;
 }
